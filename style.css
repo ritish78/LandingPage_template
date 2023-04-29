@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+
+.top-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 40px 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.website-info-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.website-info-top .info-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+}
+
+.website-info-top .img-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    font-weight: bold;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.middle-top {
+    text-align: center;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.square-image-container {
+    display: flex;
+    justify-content: center;
+    /* padding: 70px 30px; */
+    padding-bottom: 70px;
+}
+
+.individual-image {
+    max-width: 200px;
+}
+
+
+.middle-bottom {
+    background-color: #E5E7EB;
+    padding: 70px 30px;
+    margin-bottom: 70px;
+}
+
+
+.quotation {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-action {
+    background: #3882F6;
+    width: 70%;
+    border-radius: 10px;
+    padding: 30px 70px;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-action {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    color:white;
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.info-left button {
+    border: none;
+}
+
+
+
